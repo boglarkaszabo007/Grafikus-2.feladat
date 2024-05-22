@@ -7,11 +7,7 @@
         public Form1()
         {
             InitializeComponent();
-            
-        }
-        private void InitializeForm()
-        {
-            // A Form1 inicializálásával kapcsolatos feladatok
+             // A Form1 inicializálásával kapcsolatos feladatok
 
             // Feladat: 2
             // Összes könyv számának megjelenítése
@@ -109,6 +105,11 @@
                 mostExpensiveBooksText += $"Kategória: {book.Kategoria}, Cím: {book.Cim}, Ár: {book.Ar.ToString("C")}\n";
             }
             MessageBox.Show(mostExpensiveBooksText);
+            
+        }
+        private void InitializeForm()
+        {
+           
         }
     }
 }
